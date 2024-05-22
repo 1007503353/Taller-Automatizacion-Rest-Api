@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="automatizacion de rest api - pom" skipped="0" tests="1" time="3.24" timestamp="2024-05-22 04:48:22"><testcase name="consultar un usuario con metodo get"><failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;404&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;404&gt; but was:&lt;200&gt;&#13;
+com.unac.restinteractions.RestInteractions.validatecode(RestInteractions.java:24)&#13;
+com.unac.apis.GoRestApi.validateResponse(GoRestApi.java:19)&#13;
+com.unac.stepsdefinitions.GetGoRestStepsdefinitions.seValidaQueElStatusCodeYQueContengaElNombre(GetGoRestStepsdefinitions.java:21)&#13;
+✽.se valida que el status code 200 y que contenga el nombre "Ekaling Prajapat"(file:///C:/Users/haibe/Documents/AutomatizacionApiRest/src/test/resources/com/unac/get_go_rest.feature:9)&#13;
+</system-err></testcase></testsuite>

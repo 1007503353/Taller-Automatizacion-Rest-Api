@@ -30,6 +30,11 @@ buildscript {
 }
 
 dependencies {
+
+    implementation 'io.rest-assured:rest-assured:4.4.0'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     implementation group: 'net.serenity-bdd', name: 'serenity-cucumber6', version: "$rootProject.ext.serenityCucumberVersion"
     implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: "$rootProject.ext.serenityVersion"
     implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: "$rootProject.ext.serenityVersion"
